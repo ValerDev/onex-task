@@ -1,0 +1,16 @@
+.countriesMultiselect {
+  width: 200px;
+  .customTag {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border-radius: 12px;
+    background-color: #e6f4ff;
+    .label {
+      color: #000000;
+    }
+    span {
+      color: #000000 !important;
+    }
+  }
+}

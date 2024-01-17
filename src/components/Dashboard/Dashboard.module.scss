@@ -1,0 +1,12 @@
+@import '../../assets/variables.scss';
+
+.dashboard {
+  width: 100%;
+  padding: 20px;
+  background-color: $light-gray;
+  margin-left: 70px;
+  h2 {
+    margin-bottom: 30px;
+    margin-left: 25px;
+  }
+}

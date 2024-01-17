@@ -1,0 +1,51 @@
+@import '../../assets/variables.scss';
+
+.dateTabs {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  div {
+    .ant-wave {
+      display: none;
+    }
+  }
+  .rangePicker {
+    height: 32px;
+    &:hover {
+      border: 1px solid #d9d9d9;
+    }
+  }
+  .ant-radio-button-wrapper-checked {
+    border-color: #d9d9d9 !important;
+    border-left: none;
+    color: #989898;
+    background-color: $light-gray;
+    &:nth-child(1) {
+      border-left: 1px solid #d9d9d9;
+    }
+    &:hover {
+      border: 1px solid #d9d9d9;
+    }
+  }
+  .ant-radio-button-wrapper {
+    color: #989898;
+
+    &::before {
+      content: none;
+    }
+    &:hover {
+      border: 1px solid #d9d9d9;
+      border-left: none;
+      color: #989898;
+      background-color: $light-gray;
+    }
+    &:nth-child(1) {
+      border-left: 1px solid #d9d9d9;
+    }
+    &:active {
+      color: unset;
+      color: #989898;
+      border-color: #d9d9d9;
+    }
+  }
+}
